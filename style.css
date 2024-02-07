@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Sofia&display=swap'); */
+
+html {
+  font-size: 16px;
+  color:  #E2E8F0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  /* border: red 1px solid; */
+  /* margin: 5px; */
+}
+
+body {
+  background-color: #0f172a;
+  border: cyan 2px solid;
+
+  margin: 3px;
+}
+
+header {
+  margin: 0;
+  border: red 2px solid;
+
+  height: 80vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: lightgreen 2px solid;
+}
+
+#home {
+  font-size: 2.5rem;
+  margin-left: 5%;
+}
+
+#home-list {
+  font-size: 2.5rem;
+  margin-right: 5%;
+}
+
+/* ul {
+  display: flex;
+  list-style-type: none;
+  border: red 1px solid;
+  padding: 0;
+  margin-right: 10%;
+}
+
+li {
+  padding: 0 0 0 5%;
+} */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px yellow solid;
+  margin: 3px;
+  height: 90%;
+}
+
+.left-intro {
+  margin: 5px;
+  border: cyan 2px solid;
+  text-align: center;
+}
+
+.left-intro h1 {
+  margin: 0;
+  border: 2px #E2E8F0 solid;
+}
+
+.right-intro {
+  margin: 5px;
+  border: cyan 2px solid;
+}
+
+.right-intro {
+  margin: 5px;
+  border: cyan 2px solid;
+  text-align: center;
+}
